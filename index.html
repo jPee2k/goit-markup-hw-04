@@ -25,41 +25,61 @@
       </ul>
     </nav>
     <ul class="contacts">
-      <li><a class="contacts__link contacts__link--email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-      <li><a class="contacts__link contacts__link--phone" href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <li><a class="contacts__link contacts__link--email" href="mailto:info@devstudio.com">
+        <svg width="16" height="12"><use xlink:href="images/icons.svg#email"></use></svg>
+        info@devstudio.com
+      </a></li>
+      <li><a class="contacts__link contacts__link--phone" href="tel:+380961111111">
+        <svg width="10" height="16"><use xlink:href="images/icons.svg#phone"></use></svg>
+        +38 096 111 11 11
+      </a></li>
     </ul>
   </div>
 </header>
 
 <main class="main">
   <section class="intro section">
-    <h1 class="intro__title">Эффективные решения для вашего бизнеса</h1>
-    <button class="button intro__button" type="button">Заказать услугу</button>
+    <div class="container">
+      <h1 class="intro__title">Эффективные решения для вашего бизнеса</h1>
+      <button class="button intro__button" type="button">Заказать услугу</button>
+    </div>
   </section>
 
   <section class="advantages section">
     <h2 class="visually-hidden">Преимущества</h2>
     <div class="container">
       <ul class="advantages__list">
-        <li class="advantages__item">
+        <li class="advantages__item item-advantages" tabindex="0">
+          <div class="advantages__img">
+            <svg width="70" height="70"><use xlink:href="images/icons.svg#antenna"></use></svg>
+          </div>
           <h3 class="advantages__title">Внимание к деталям</h3>
           <p class="advantages__description">
             Идейные соображения, а также начало повседневной работы по формированию позиции.
           </p>
         </li>
-        <li class="advantages__item">
+        <li class="advantages__item item-advantages" tabindex="0">
+          <div class="advantages__img">
+            <svg width="70" height="70"><use xlink:href="images/icons.svg#clock"></use></svg>
+          </div>
           <h3 class="advantages__title">Пунктуальность</h3>
           <p class="advantages__description">
             Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
           </p>
         </li>
-        <li class="advantages__item">
+        <li class="advantages__item item-advantages" tabindex="0">
+          <div class="advantages__img">
+            <svg width="70" height="70"><use xlink:href="images/icons.svg#diagram"></use></svg>
+          </div>
           <h3 class="advantages__title">Планирование</h3>
           <p class="advantages__description">
             Равным образом консультация с широким активом в значительной степени обуславливает.
           </p>
         </li>
-        <li class="advantages__item">
+        <li class="advantages__item item-advantages" tabindex="0">
+          <div class="advantages__img">
+            <svg width="70" height="70"><use xlink:href="images/icons.svg#astronaut"></use></svg>
+          </div>
           <h3 class="advantages__title">Современные технологии</h3>
           <p class="advantages__description">
             Значимость этих проблем настолько очевидна, что реализация плановых заданий.
@@ -100,6 +120,24 @@
           <div class="card__wrapper">
             <h3 class="card__title">Игорь Демьяненко</h3>
             <p class="card__subtitle" lang="en">Product Designer</p>
+            <ul class="social__list">
+              <li><a class="social__link" href="https://instagram.com/" aria-label="instagram"
+                     rel="nofollow noopener noreferrer" target="_blank">
+                <svg width="20" height="20"><use xlink:href="images/icons.svg#instagram"></use></svg>
+              </a></li>
+              <li><a class="social__link" href="https://twitter.com/" aria-label="twitter"
+                     rel="nofollow noopener noreferrer" target="_blank">
+                <svg width="20" height="20"><use xlink:href="images/icons.svg#twitter"></use></svg>
+              </a></li>
+              <li><a class="social__link" href="https://facebook.com/" aria-label="facebook"
+                     rel="nofollow noopener noreferrer" target="_blank">
+                <svg width="20" height="20"><use xlink:href="images/icons.svg#facebook"></use></svg>
+              </a></li>
+              <li><a class="social__link" href="https://linkedin.com/" aria-label="linkedin"
+                     rel="nofollow noopener noreferrer" target="_blank">
+                <svg width="20" height="20"><use xlink:href="images/icons.svg#linkedin"></use></svg>
+              </a></li>
+            </ul>
           </div>
         </li>
         <li class="team__item card" tabindex="0">
@@ -108,6 +146,24 @@
           <div class="card__wrapper">
             <h3 class="card__title">Ольга Репина</h3>
             <p class="card__subtitle" lang="en">Frontend Developer</p>
+            <ul class="social__list">
+              <li><a class="social__link" href="https://instagram.com/" aria-label="instagram"
+                     rel="nofollow noopener noreferrer" target="_blank">
+                <svg width="20" height="20"><use xlink:href="images/icons.svg#instagram"></use></svg>
+              </a></li>
+              <li><a class="social__link" href="https://twitter.com/" aria-label="twitter"
+                     rel="nofollow noopener noreferrer" target="_blank">
+                <svg width="20" height="20"><use xlink:href="images/icons.svg#twitter"></use></svg>
+              </a></li>
+              <li><a class="social__link" href="https://facebook.com/" aria-label="facebook"
+                     rel="nofollow noopener noreferrer" target="_blank">
+                <svg width="20" height="20"><use xlink:href="images/icons.svg#facebook"></use></svg>
+              </a></li>
+              <li><a class="social__link" href="https://linkedin.com/" aria-label="linkedin"
+                     rel="nofollow noopener noreferrer" target="_blank">
+                <svg width="20" height="20"><use xlink:href="images/icons.svg#linkedin"></use></svg>
+              </a></li>
+            </ul>
           </div>
         </li>
         <li class="team__item card" tabindex="0">
@@ -115,6 +171,24 @@
           <div class="card__wrapper">
             <h3 class="card__title">Николай Тарасов</h3>
             <p class="card__subtitle" lang="en">Marketing</p>
+            <ul class="social__list">
+              <li><a class="social__link" href="https://instagram.com/" aria-label="instagram"
+                     rel="nofollow noopener noreferrer" target="_blank">
+                <svg width="20" height="20"><use xlink:href="images/icons.svg#instagram"></use></svg>
+              </a></li>
+              <li><a class="social__link" href="https://twitter.com/" aria-label="twitter"
+                     rel="nofollow noopener noreferrer" target="_blank">
+                <svg width="20" height="20"><use xlink:href="images/icons.svg#twitter"></use></svg>
+              </a></li>
+              <li><a class="social__link" href="https://facebook.com/" aria-label="facebook"
+                     rel="nofollow noopener noreferrer" target="_blank">
+                <svg width="20" height="20"><use xlink:href="images/icons.svg#facebook"></use></svg>
+              </a></li>
+              <li><a class="social__link" href="https://linkedin.com/" aria-label="linkedin"
+                     rel="nofollow noopener noreferrer" target="_blank">
+                <svg width="20" height="20"><use xlink:href="images/icons.svg#linkedin"></use></svg>
+              </a></li>
+            </ul>
           </div>
         </li>
         <li class="team__item card" tabindex="0">
@@ -123,8 +197,54 @@
           <div class="card__wrapper">
             <h3 class="card__title">Михаил Ермаков</h3>
             <p class="card__subtitle" lang="en">UI Designer</p>
+            <ul class="social__list">
+              <li><a class="social__link" href="https://instagram.com/" aria-label="instagram"
+                     rel="nofollow noopener noreferrer" target="_blank">
+                <svg width="20" height="20"><use xlink:href="images/icons.svg#instagram"></use></svg>
+              </a></li>
+              <li><a class="social__link" href="https://twitter.com/" aria-label="twitter"
+                     rel="nofollow noopener noreferrer" target="_blank">
+                <svg width="20" height="20"><use xlink:href="images/icons.svg#twitter"></use></svg>
+              </a></li>
+              <li><a class="social__link" href="https://facebook.com/" aria-label="facebook"
+                     rel="nofollow noopener noreferrer" target="_blank">
+                <svg width="20" height="20"><use xlink:href="images/icons.svg#facebook"></use></svg>
+              </a></li>
+              <li><a class="social__link" href="https://linkedin.com/" aria-label="linkedin"
+                     rel="nofollow noopener noreferrer" target="_blank">
+                <svg width="20" height="20"><use xlink:href="images/icons.svg#linkedin"></use></svg>
+              </a></li>
+            </ul>
           </div>
         </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="clients section">
+    <h2 class="services__title">Постоянные клиенты</h2>
+    <div class="container">
+      <ul class="clients__list">
+        <li><a class="clients__link" href="#" target="_blank" rel="nofollow noreferrer noopener" aria-label="YA & CO">
+          <svg height="47" width="41"><use xlink:href="images/icons.svg#ya"></use></svg>
+        </a></li>
+        <li><a class="clients__link" href="#" target="_blank" rel="nofollow noreferrer noopener"
+               aria-label="tagline here">
+          <svg height="52" width="40"><use xlink:href="images/icons.svg#tagline"></use></svg>
+        </a></li>
+        <li><a class="clients__link" href="#" target="_blank" rel="nofollow noreferrer noopener" aria-label="company">
+          <svg height="41" width="43"><use xlink:href="images/icons.svg#company"></use></svg>
+        </a></li>
+        <li><a class="clients__link" href="#" target="_blank" rel="nofollow noreferrer noopener"
+               aria-label="foster peters">
+          <svg height="41" width="84"><use xlink:href="images/icons.svg#foster"></use></svg>
+        </a></li>
+        <li><a class="clients__link" href="#" target="_blank" rel="nofollow noreferrer noopener" aria-label="brand">
+          <svg height="45" width="63"><use xlink:href="images/icons.svg#brand"></use></svg>
+        </a></li>
+        <li><a class="clients__link" href="#" target="_blank" rel="nofollow noreferrer noopener" aria-label="company">
+          <svg height="44" width="94"><use xlink:href="images/icons.svg#tag"></use></svg>
+        </a></li>
       </ul>
     </div>
   </section>
@@ -132,17 +252,40 @@
 
 <footer class="footer">
   <div class="container">
-    <a class="logo footer__logo" href="/" title="на главную страницу - WebStudio"><span class="logo__prefix">Web</span>Studio</a>
-    <address class="address">
-      <ul class="address__list">
-        <li><a class="address__main"
-               href="https://www.google.com.ua/maps/ms?msid=218324961284362248250.0004ea06cd32ef222b213&msa=0"
-               target="_blank" rel="noopener noreferrer nofollow">г. Киев, пр-т Леси Украинки, 26</a>
-        </li>
-        <li><a class="contacts__link contacts__link--email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contacts__link contacts__link--phone" href="tel:+380961111111">+38 096 111 11 11</a></li>
+    <div class="footer__column">
+      <a class="logo footer__logo" href="/" title="на главную страницу - WebStudio"><span class="logo__prefix">Web</span>Studio</a>
+      <address class="address">
+        <ul class="address__list">
+          <li><a class="address__main"
+                 href="https://www.google.com.ua/maps/ms?msid=218324961284362248250.0004ea06cd32ef222b213&msa=0"
+                 target="_blank" rel="noopener noreferrer nofollow">г. Киев, пр-т Леси Украинки, 26</a>
+          </li>
+          <li><a class="contacts__link contacts__link--email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="contacts__link contacts__link--phone" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+      </address>
+    </div>
+    <div class="social footer__column">
+      <p class="social__title">Присоединяйтесь</p>
+      <ul class="social__list">
+        <li><a class="social__link" href="https://instagram.com/" aria-label="instagram"
+               rel="nofollow noopener noreferrer" target="_blank">
+          <svg width="20" height="20"><use xlink:href="images/icons.svg#instagram"></use></svg>
+        </a></li>
+        <li><a class="social__link" href="https://twitter.com/" aria-label="twitter"
+               rel="nofollow noopener noreferrer" target="_blank">
+          <svg width="20" height="20"><use xlink:href="images/icons.svg#twitter"></use></svg>
+        </a></li>
+        <li><a class="social__link" href="https://facebook.com/" aria-label="facebook"
+               rel="nofollow noopener noreferrer" target="_blank">
+          <svg width="20" height="20"><use xlink:href="images/icons.svg#facebook"></use></svg>
+        </a></li>
+        <li><a class="social__link" href="https://linkedin.com/" aria-label="linkedin"
+               rel="nofollow noopener noreferrer" target="_blank">
+          <svg width="20" height="20"><use xlink:href="images/icons.svg#linkedin"></use></svg>
+        </a></li>
       </ul>
-    </address>
+    </div>
   </div>
 </footer>
 </body>
