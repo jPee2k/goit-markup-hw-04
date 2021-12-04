@@ -132,7 +132,9 @@
 }
 
 .contacts__link {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+
   padding-top: 6px;
   padding-bottom: 6px;
 
@@ -148,8 +150,7 @@
 }
 
 .contacts__link svg {
-  vertical-align: middle;
-  margin-right: 6px;
+  margin-right: 10px;
 }
 
 
