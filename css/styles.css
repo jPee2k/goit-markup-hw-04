@@ -473,6 +473,7 @@
 .footer .container {
   display: flex;
   flex-wrap: wrap;
+  align-items: baseline;
   column-gap: 70px;
   row-gap: 30px;
 }
@@ -485,6 +486,10 @@
 
 .footer__column {
   width: 231px;
+}
+
+.social.footer__column {
+  width: auto;
 }
 
 .address__list {
@@ -518,11 +523,8 @@
   color: var(--title-color);
   text-transform: uppercase;
 
+  margin-top: 0;
   margin-bottom: 18px;
-}
-
-.footer .social__list {
-  justify-content: flex-start;
 }
 
 .footer .social__link {
