@@ -181,7 +181,7 @@
 
   background:
     linear-gradient(to right, var(--intro-filter), var(--intro-filter)),
-    url("../images/intro/bg.jpg") no-repeat;
+    url("../images/intro/bg.jpg") no-repeat center;
   background-size: auto, cover;
 }
 
